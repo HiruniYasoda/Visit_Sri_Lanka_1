@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 3px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    border-radius: 12px;
+    color: black;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: wavy;
+    font-weight: 800;
+    font-size:x-large;
+    
+  }
+  
+  li a:hover {
+    
+    background: linear-gradient(45deg, #ff0066, #6a0dad); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    background-clip: text; 
+    text-decoration: underline;
+    text-decoration-color: linear-gradient(45deg, #ff0066, #6a0dad);
+          
+
+  }
+  li a:active {
+    text-decoration: underline; 
+  }
+
+.Hor{
+  background: linear-gradient(45deg, #ff0066, #6a0dad); 
+
+}

@@ -1,0 +1,44 @@
+.bttns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 98%;
+    margin-top: 20px; 
+}
+
+.game {
+    background: linear-gradient(to top right, #320723, #0b0b58, #000000e3, #1e1d1d, #16391f, #011807);
+    border-radius: 30px;
+    width: 97%; 
+    height: 2700px;
+    margin: auto; 
+    padding: 20px;
+    text-align: center; 
+    
+}
+
+.game header {
+    color: rgba(249, 248, 241, 0.97);
+    font-family: fantasy;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+}
+
+.LinkPlaces {
+    width: 70%;
+    margin: 50px auto; 
+    background: #00071756;
+    text-align: center; 
+    border-radius: 30px;
+    padding: 20px; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.LinkPlaces img {
+    width: 95%;
+    max-width: 600px; 
+    height: 300px;
+    border-radius: 10px; 
+    margin-top: 20px; 
+}

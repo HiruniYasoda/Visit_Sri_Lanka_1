@@ -1,0 +1,16 @@
+.rulebox{
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+    color: rgb(114, 136, 139);
+    background: rgba(245, 243, 244, 0.186) ;
+    border-radius: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.rulebox p{
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}

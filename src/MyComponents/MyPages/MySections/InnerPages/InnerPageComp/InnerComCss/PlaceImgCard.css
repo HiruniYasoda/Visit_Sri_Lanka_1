@@ -1,0 +1,19 @@
+
+
+.TravelImg img{
+    height: 510px;
+    width: 100%;
+    border-radius: 30px;
+    align-items: center;
+   }
+   
+.Box{
+    height: 36rem;
+    border: 1px;
+    border-color: aquamarine;
+    border-radius: 30px;
+    background-color: rgb(15, 16, 16);
+    padding: 10px;
+    color: rgb(178, 182, 186);
+    width: 100%;
+ }

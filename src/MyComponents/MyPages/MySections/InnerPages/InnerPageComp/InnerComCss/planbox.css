@@ -1,0 +1,25 @@
+.planobox button{
+    width: 80%;
+    margin: auto;
+    height: 80px;
+    background: linear-gradient(45deg, #ff0066, #6a0dad);
+    transition: background 0.3s ease;
+
+}
+
+.planobox{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 3%;
+}
+
+.planobox h1{
+   font-size: 50px;
+   margin: auto;
+}
+
+.planobox button:hover{
+    background: linear-gradient(45deg, #6a0dad,#ff0066);
+}

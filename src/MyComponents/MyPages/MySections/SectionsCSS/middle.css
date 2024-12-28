@@ -1,0 +1,70 @@
+.left p , .box h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #332e3e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.box p{
+    text-align: left;
+    font-size: 20px;
+    color: #332e3e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.seconds {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: fit-content;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+   
+}
+
+.left {
+    flex: 1; 
+    padding: 20px; 
+    width: 100%;
+}
+
+.right {
+    flex: 1; 
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    
+}
+
+.right button{
+    width: 60%;
+    height: 55%;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #ff006654, #6a0dad61);
+    color: rgb(37, 2, 2);
+    padding: 20px;
+    flex: 1;
+    margin: 19px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.right button:hover {
+        border: 3px;
+        border-color: #09011d;
+        border-radius: 8px;
+        background: linear-gradient(45deg, #00f2ff, #220dad);
+    color: white;
+
+
+}
+
+   
+    
+    

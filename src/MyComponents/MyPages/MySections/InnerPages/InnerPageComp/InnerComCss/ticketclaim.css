@@ -1,0 +1,29 @@
+.TicClaim header{
+    background: linear-gradient(45deg, #ffe600, #adad0d, #ffe600, #adad0d);
+    color: white;
+}
+.get-claim button {
+    width: 100%;
+    
+background: linear-gradient(45deg, #ffe600, #adad0d, #ffe600, #adad0d);
+border: none;
+height: auto;
+border-radius: 30px;
+font-size: large;
+padding: 2px;
+color: rgb(50, 48, 48);
+font-weight: 800;
+
+}
+
+.get-claim button:hover {
+ box-shadow: 5px 5px 10px rgb(81, 80, 80);
+}
+.TicClaim p{
+    font-weight: 600;
+    width: 90%;
+    margin: 4px auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}

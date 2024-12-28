@@ -1,0 +1,62 @@
+.HeadAll{
+    width: 99%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(slribbon2.png);
+    background-size: 22%;
+    background-position: center;
+    background-clip: content-box;
+    height: 10%;
+}
+
+.HeadAll p{
+  border-radius: 30px;
+    width: 44%;
+    margin: auto;
+    background-color: rgba(25, 16, 16, 0.819);
+   color: rgb(244, 244, 250);
+   font-weight: 500;
+   text-align: center;
+   margin-right: 3px;
+   padding: 3px;
+}
+.HeadAll p:hover{ 
+    color: blueviolet;
+}
+.cons{
+    
+    display: flex;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin-right: 0%;
+   opacity: 0.7;
+   background-color: rgba(255, 255, 255, 0.615);
+}
+
+.cons h4{
+    color: white;
+    width: 90%;
+    margin-right: 0%; 
+    opacity: 1;
+  margin: auto;
+  
+    border-radius: 30px;
+
+
+}
+.HeadAll img{
+ width: 15%;
+ height: 60%;
+}
+.cons h2{
+  font-size: 80px;
+  width: 70%;
+  font-style: italic;
+background-color: rgba(255, 255, 255, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px;
+}

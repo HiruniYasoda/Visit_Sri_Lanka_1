@@ -1,0 +1,7 @@
+.foot{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #060436a0, #000000 );
+color: aliceblue;
+border-radius: 30px;
+}

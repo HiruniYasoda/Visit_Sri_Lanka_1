@@ -1,0 +1,109 @@
+.Must_see_attractions{
+    background: linear-gradient(to right, #faedfa, #fbf9ee,#e5eff3 );
+    background-blend-mode: hard-light;
+    height: 900px;
+    border-radius: 12px;
+}
+    
+.Must_see_attractions{
+    border: 4px;
+}
+
+.flip-box {
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+  
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+.flip-box:hover .flip-box-inner{
+    transform: rotateY(180deg);
+}
+ 
+.flip-box-front, .flip-box-back {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+  
+.flip-box-front {
+      background-color: #72623c;
+      color: #221b0a;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: x-large;
+      letter-spacing: 2px;
+      font-weight: bold;
+}
+
+.text {
+        margin-top: 12px;
+}
+  
+  .flip-box-front img, .flip-box-back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+  .flip-box-back {
+    background: linear-gradient(45deg, #ff006630, #6a0dad43);
+
+    color: #221b0a;
+    transform: rotateY(180deg);
+    margin-top: 40px;
+  }
+  
+  .flip-box-back p {
+    padding: 3px;
+    margin: auto;
+  }
+
+  .tot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    width: 100%;
+}
+
+
+.tot button{
+    background: linear-gradient(45deg, #ff006654, #6a0dad61);
+    color: #dde0e2;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border: none;
+    font-weight: 1400;
+    font-size: xx-large;
+}
+
+.tot button:hover{
+    color: white;
+    background: linear-gradient(45deg, #00f2ff, #220dad);
+}
+
+.Must_see_attractions header{
+    color: #221b0a;
+}
+
+img {
+    width:30%;
+    height:40%;
+}

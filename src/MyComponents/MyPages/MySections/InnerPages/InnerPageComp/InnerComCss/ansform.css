@@ -1,0 +1,51 @@
+
+.answer1 p{
+margin: auto;
+font-size: medium;
+font-weight: normal;
+}
+.trip-form {
+    width: 100%;
+    max-width: 600px;
+    margin:auto;
+    padding: 2em;
+    background-color: #f5f5ff;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.trip-form h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.trip-form label {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.trip-form input,
+.trip-form textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.trip-form button {
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .faq-section, .trip-form {
+        width: 95%;
+    }
+    .faq-answer {
+        padding: 1em;
+    }
+}

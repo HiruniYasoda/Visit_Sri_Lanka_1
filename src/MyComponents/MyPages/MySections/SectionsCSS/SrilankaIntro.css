@@ -1,0 +1,15 @@
+.header{
+    height: 620px;
+    background-image: url(introimage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    width: 100%;
+   
+    
+}
+.second header 
+ {
+  color: rgb(11, 7, 52);
+ }

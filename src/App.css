@@ -1,0 +1,13 @@
+header{
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    margin-top: 3px;
+}
+.MYWEB{
+    /* Mobile first */ 
+    width: 100%;
+}
+

@@ -1,0 +1,51 @@
+.mask_background {
+    height: auto;
+    background-image: url('Mask.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 80px;   
+}
+
+.mask_background img{
+    width: auto;
+    align-items: center;
+    margin: auto;
+    height: fit-content;
+}
+.to_do {
+    color: beige;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: auto; 
+    margin-right: 0; 
+}
+.todotext{
+    color: beige;
+    width: 98%;
+    font-size: 75px;
+    text-align: center;      
+}
+.to_do p {
+    margin: 0; 
+}
+
+.to_do button {
+    color: rgb(11, 11, 11);
+    font-size: 18px;
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bolder;
+    margin-top: 10px; 
+}
+
+.to_do button:hover {
+    color: white;
+    text-decoration: underline;
+    background: linear-gradient(45deg, #00f2ff, #220dad);
+
+}
